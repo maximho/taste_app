@@ -1,5 +1,14 @@
-<h1>About</h1>
-<p>
-	Get about on the Taste App at the 
-	<a href="http://www.railstutorial.org/#about">Taste App help section</a>.
-</p>
+<% provide(:title, "About") %>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title><%= yield(:title) %> | Ruby on Rails Taste App</title>
+	</head>
+	<body>
+		<h1>Taste App</h1>
+		<p>
+			Find more about at the
+			<a href="http://www.railstutorial.org/">Ruby on Rails App</a>
+		</p>
+	</body>
+</html>
